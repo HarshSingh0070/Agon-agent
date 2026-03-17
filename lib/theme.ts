@@ -1,0 +1,103 @@
+export const Colors = {
+  dark: {
+    background: '#0A0A0F',
+    surface: '#12121A',
+    card: '#1A1A28',
+    cardBorder: 'rgba(255,255,255,0.08)',
+    primary: '#6C63FF',
+    primaryLight: '#8B85FF',
+    secondary: '#FF6584',
+    accent: '#43E97B',
+    accentOrange: '#F7971E',
+    accentBlue: '#4FACFE',
+    text: '#FFFFFF',
+    textSecondary: '#A0A0B8',
+    textMuted: '#606078',
+    border: 'rgba(255,255,255,0.1)',
+    glass: 'rgba(255,255,255,0.05)',
+    glassBorder: 'rgba(255,255,255,0.12)',
+    success: '#43E97B',
+    warning: '#F7971E',
+    error: '#FF6584',
+    tabBar: '#0F0F1A',
+    tabBarBorder: 'rgba(255,255,255,0.08)',
+    inputBg: 'rgba(255,255,255,0.06)',
+  },
+  light: {
+    background: '#F0F2FF',
+    surface: '#FFFFFF',
+    card: '#FFFFFF',
+    cardBorder: 'rgba(0,0,0,0.06)',
+    primary: '#6C63FF',
+    primaryLight: '#8B85FF',
+    secondary: '#FF6584',
+    accent: '#2ECC71',
+    accentOrange: '#F7971E',
+    accentBlue: '#4FACFE',
+    text: '#1A1A2E',
+    textSecondary: '#5A5A7A',
+    textMuted: '#9090A8',
+    border: 'rgba(0,0,0,0.08)',
+    glass: 'rgba(255,255,255,0.7)',
+    glassBorder: 'rgba(108,99,255,0.2)',
+    success: '#2ECC71',
+    warning: '#F7971E',
+    error: '#FF6584',
+    tabBar: '#FFFFFF',
+    tabBarBorder: 'rgba(0,0,0,0.06)',
+    inputBg: 'rgba(108,99,255,0.06)',
+  },
+};
+
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  xxl: 48,
+};
+
+export const BorderRadius = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 24,
+  xxl: 32,
+  full: 9999,
+};
+
+export const FontSize = {
+  xs: 11,
+  sm: 13,
+  md: 15,
+  lg: 17,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+  display: 42,
+};
+
+export const Shadow = {
+  sm: {
+    shadowColor: '#6C63FF',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  md: {
+    shadowColor: '#6C63FF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 16,
+    elevation: 8,
+  },
+  lg: {
+    shadowColor: '#6C63FF',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.25,
+    shadowRadius: 24,
+    elevation: 12,
+  },
+};
